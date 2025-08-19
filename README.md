@@ -35,25 +35,25 @@ This project includes user authentication, posts, likes, comments, and other cor
    
 2. **Create Virtual Environment**
    
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
 
 3. **Install Dependencies**
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. **Setup Database**
    
-Update database URL in config.py
+   Update database URL in config.py
 
 5. **Run the Server**
     
-uvicorn main:app --reload   # FastAPI
+   uvicorn main:app --reload   # FastAPI
 
 6. **API Documentation**
     
-Swagger UI: http://127.0.0.1:8000/docs
+   Swagger UI: http://127.0.0.1:8000/docs
 
 ---
 
