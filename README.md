@@ -1,4 +1,4 @@
-# Instagram Backend Clone
+# Instagram Backend 
 
 A backend API for an Instagram-like application built with **Python** and **FastAPI**.  
 This project includes user authentication, posts, likes, comments, and other core social media features.
