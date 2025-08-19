@@ -33,25 +33,25 @@ This project includes user authentication, posts, likes, comments, and other cor
    git clone https://github.com/your-username/instagram-backend.git
    cd instagram-backend
    
-3. **Create Virtual Environment**
+2. **Create Virtual Environment**
    
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 
-5. **Install Dependencies**
+3. **Install Dependencies**
    
 pip install -r requirements.txt
 
-7. **Setup Database**
+4. **Setup Database**
    
 Update database URL in config.py
 
-9. **Run the Server**
+5. **Run the Server**
     
 uvicorn main:app --reload   # FastAPI
 
-11. **API Documentation**
+6. **API Documentation**
     
 Swagger UI: http://127.0.0.1:8000/docs
 
